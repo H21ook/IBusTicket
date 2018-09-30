@@ -1,0 +1,7 @@
+{
+  "name": "IBusTicket",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

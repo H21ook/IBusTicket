@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div class="register-form">
+      <ion-input type="text" placeholder="Email" [(ngModel)]="user.email" class="inputText" style="margin-top:50%"></ion-input>
+      <ion-input type="password" placeholder="Password" [(ngModel)]="user.password" class="inputText"></ion-input>
+      <button class="btn btn-primary" style="width: 100%;" (click)="register()">Register</button>
+    </div>
+  </ion-content>
